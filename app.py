@@ -17,7 +17,7 @@ def train():
     loading_frame.pack()
 
     #Start new thread to train
-    _thread.start_new_thread(main.train, (id, 15, bar, show_results, try_again))
+    _thread.start_new_thread(main.train, (id, 150, bar, show_results, try_again))
 
 
 def show_results():
